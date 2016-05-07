@@ -2447,9 +2447,15 @@
 			width: 50%;
 		}
 
+		.features article .inner span{
+			margin-right: 15px;
+		}
+
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+
+
 
 /* Header */
 
