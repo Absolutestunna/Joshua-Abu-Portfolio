@@ -2446,6 +2446,9 @@
 			vertical-align: middle;
 			width: 50%;
 		}
+		.features article .inner .tools i{
+			margin-right: 10px;
+		}
 
 		.features article .inner span{
 			margin-right: 15px;
