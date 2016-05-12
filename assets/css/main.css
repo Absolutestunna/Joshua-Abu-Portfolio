@@ -87,6 +87,26 @@
 
 
 
+
+	@media screen and (max-width: 720px) {
+		.icons li {
+			width: 35px;
+			height: 30px;
+		}
+		.feature-icons li img {
+			/*width: 100%;*/
+			margin-left: 30%;
+			width: 180px;
+		}
+	}
+	@media screen and (max-width: 420px) {
+		.icons {
+			margin-left: 80px !important;
+		}
+	}
+
+
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -110,6 +130,7 @@
 		.container {
 			width: 45em;
 		}
+
 
 	}
 
@@ -2118,7 +2139,7 @@
 
 			ul.icons li {
 				display: inline-block;
-				padding: 0 1em 0 0;
+				padding: 0 2.5em 0 0;
 			}
 
 				ul.icons li:last-child {
@@ -2605,6 +2626,7 @@
 	#phone {
 		margin-top: 20px;
 		margin-left: 50px;
+		margin-bottom: 50px;
 	}
 	.mail {
 		margin-right: 10px;
@@ -2612,6 +2634,9 @@
 	.phone {
 		margin-right: 10px;
 
+	}
+	.icons {
+		margin-left: 150px;
 	}
 
 
